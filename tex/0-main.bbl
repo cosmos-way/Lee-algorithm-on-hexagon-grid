@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{red}
+\selectlanguageifdefined{english}
+\BibEmph{Patel,~Amit}. Hexagonal Grids [Электронный ресурс]
+  (дата обращения: 01.05.2018). ---
+\newblock 2015. \BibUrl{ https://www.redblobgames.com/grids/hexagons/}.
+
+\bibitem{book1}
+\selectlanguageifdefined{russian}
+\BibEmph{А.,~Новиков~Ф.} Дискретная математика
+  для программистов~/ Новиков~Ф.~А. ---
+\newblock Питер, 2013.
+
+\end{thebibliography}

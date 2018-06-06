@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1528297478 source:y:\documents\develop\lialgsvg\main.cpp
+	<iostream>
+	"Hexagon.h"
+
+1528299439 y:\documents\develop\lialgsvg\hexagon.h
+	<iostream>
+	"simple_svg_1.0.0_mod.hpp"
+	"math.h"
+	<list>
+	<map>
+	<set>
+	<string>
+	<sstream>
+	<ctime>
+
+1526267816 y:\documents\develop\lialgsvg\simple_svg_1.0.0_mod.hpp
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<iostream>
+
+1528299219 source:y:\documents\develop\lialgsvg\hexagon.cpp
+	"Hexagon.h"
+

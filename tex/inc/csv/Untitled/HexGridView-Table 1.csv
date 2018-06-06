@@ -1,0 +1,12 @@
+;Имя;Мод. доступа;Параметры;Назначение
+;HexGridView;public;TriangularHexGraph **hexGridModel, QWidget *parent = nullptr;Конструктор виджета для отображения гексагональной стеки. В качестве параметра передается указатель на указатель модели гексагональной стеки.
+;openMouseSettingsWidget;public;;Отображается диалоговое окно с настройками управления гексагональной сетки
+;chooseStartHex;public;;После вызова позволяет выбрать стартовый шестиугольник
+;chooseFinishHex;public;;После вызова позволяет выбрать финишный шестиугольник
+;paintEvent;protected;QPaintEvent*;Метод, который отрисовывает шестиугольную сетку
+;mousePressEvent;private;QMouseEvent* pe;Метод, который обрабатывает нажатие кнопки мыши
+;;;;
+std::vector<HexCube>;path;Хранит путь из точки старта до финиша;;
+std::map<HexCube, HexData>;frontiers;Хранит фронты;;
+double;colorDelta;Дельта для вычисления цвета шестиугольника;;
+TriangularHexGraph;**hexGridModel;;;

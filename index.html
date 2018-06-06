@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG viewer</title>
+    <script>
+        function edit(){
+            var prevPath = document.getElementById("mainSVG").src;
+            var srcArr = prevPath.split("/");
+            if(srcArr[srcArr.length-1] == "00_FINAL.svg")
+                return;
+            var num = Number(srcArr[srcArr.length-1].replace('.svg', ''));
+            num++;
+            var img = new Image();
+            img.src = prevPath.replace(srcArr[srcArr.length-1], '')+num+'.svg';
+
+            img.onerror = function() {
+                img.src = prevPath.replace(srcArr[srcArr.length-1], '')+"00_FINAL.svg";
+                img.onerror = function() {
+                    alert("Невозможно найти путь!");
+                }
+            };
+
+
+            document.getElementById("mainSVG").src = img.src;
+        }
+
+    </script>
+</head>
+<body>
+<a onclick="edit()" href="#">NEXT</a>
+    <img id="mainSVG" src="0.svg" width="100%">
+</body>
+</html>

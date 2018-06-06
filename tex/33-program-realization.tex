@@ -1,0 +1,68 @@
+% !TEX root = 0-main.tex
+% !TEX encoding = UTF-8 Unicode
+
+\chapter{Реализация программного инструмента}
+\label{cha:ch_3}
+Архитектура программного инструмента построена согласно парадигме объектно-ориентированного программирования. В качестве условий разделения данных в приложении использовался метод <<Модель-Представление-Контроллер>>(MVC).
+
+\begin{longtable}[c]{|p{2cm}|p{2cm}|p{2cm}|p{8cm}|}
+\hline
+\multicolumn{1}{|p{2cm}|}{\textbf{Тип возвращаемого элемента}} & \multicolumn{1}{p{2cm}|}{\textbf{Имя}} & \multicolumn{1}{p{2cm}|}{\textbf{Параме\-тры}} & \multicolumn{1}{c|}{\textbf{Назначение}}                                                                     \\ \hline
+\endfirsthead
+%
+\endhead
+%
+void                                                      & HexGrid\-Layout                     & QWidget *parent = nullptr               & Конструктор виджета, описывающего работу виджета гексагональной сетки и управляющих элементов (кнопок, меню) \\ \hline
+void                                                      & openFile                          &                                         & Позволяет пользователю выбрать файл для чтения в ситле ОС                                                    \\ \hline
+void                                                      & saveHex\-Grid                       &                                         & Позволяет пользователю выбрать место для сохранения и имя файла с данными о гексагональной сетке             \\ \hline
+void                                                      & create\-NewHex\-Grid                  & int lenght=0                            & Создает новую гексагональную сетку (отображение и модель)                                                    \\ \hline
+void                                                      & closeCur\-rentHex\-Grid               &                                         & Удаляет отображение и модель актуальной гексагональной сетки                                                 \\ \hline
+void                                                      & saveAllIt\-erations&                                         & Позволяет пользователю выбрать папку для для сохранения всех итераций работы алгоритма в формате SVG         \\ \hline
+void                                                      & doDijks\-tra                        & bool bySteps = false                    & Выполняет алгоритм на актуальной сетке с возможностью поэтапного выполнения                                  \\ \hline
+\caption{Методы класса HexGridLayout с модификатором доступа public}
+\label{my-label}\\
+\end{longtable}
+
+
+\begin{longtable}[c]{|p{2cm}|p{2cm}|p{2.3cm}|p{7.7cm}|}
+\\
+\hline
+\multicolumn{1}{|p{2cm}|}{\textbf{Имя}} & \multicolumn{1}{p{2cm}|}{\textbf{Мод. доступа}} & \multicolumn{1}{p{2cm}|}{\textbf{Параме\-тры}}                      & \multicolumn{1}{p{8cm}|}{\textbf{Назначение}}                                                                                                      \\ \hline
+\endfirsthead
+%
+\endhead
+%
+HexGrid\-View                       & public                                     & Triangular\-HexGraph **hexGrid\-Model, QWidget *parent = nullptr & Конструктор виджета для отображения гексагональной стеки. В качестве параметра передается указатель на указатель модели гексагональной стеки. \\ \hline
+openMou\-seSetti\-ngsWidget           & public                                     &                                                              & Отображается диалоговое окно с настройками управления гексагональной сетки                                                                    \\ \hline
+choose\-Start\-Hex                    & public                                     &                                                              & После вызова позволяет выбрать стартовый шестиугольник                                                                                        \\ \hline
+choose\-Finish\-Hex                   & public                                     &                                                              & После вызова позволяет выбрать финишный шестиугольник                                                                                         \\ \hline
+paint\-Event                        & protected                                  & QPaint\-Event*                                                 & Метод, который отрисовывает шестиугольную сетку                                                                                               \\ \hline
+mouse\-Press\-Event                   & private                                    & QMouse\-Event*~pe                                              & Метод, который обрабатывает нажатие кнопки мыши       
+\\ \hline  
+\caption{Методы класса TriangularHexGrap с возвращаемым типом данных void.}
+\label{my-label}\\                                                                                     
+\end{longtable}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{|p{2.2cm}|p{2.1cm}|p{2.2cm}|p{7.6cm}|}
+\hline
+\multicolumn{1}{|p{2cm}|}{\textbf{Тип возвращаемого элемента}} & \multicolumn{1}{p{2cm}|}{\textbf{Имя}} & \multicolumn{1}{p{2cm}|}{\textbf{Параме\-тры}} & \multicolumn{1}{c|}{\textbf{Назначение}}                                                                     \\ \hline
+\endfirsthead
+%
+\endhead
+%
+void                                                      & Trian\-gular\-Hex\-Graph                & unsigned lenght                                                                                                                       & Конструктор класса, передается размерность гексагональной сетки                          \\ \hline
+void                                                      & setHex\-Size                        & double hexSize                                                                                                                        & Задаем размер шестиугольника, на основе которых вычисляются другие характеристики сетки  \\ \hline
+HexCube                                                   & toCube\-fromOffset                  & HexCoord row, HexCoord column                                                                                                         & Конвертирует из порядковых координат в кубические                                        \\ \hline
+                                                          & toCube\-FromAxial                   & HexCoord q, HexCoord r                                                                                                                & Конвертирует из осевых координат в кубические                                            \\ \hline
+HexData                                                   & getWeight                         & HexCube cube                                                                                                                          & Возвращает вес шестиугольника по кубическим координатам                                  \\ \hline
+Void                                                      & setPlus\-Weight                     & HexData increment, HexCoord row, HexCoord column                                                                                      & Увеличивает вес шестиугольника на increment                                              \\ \hline
+                                                          & setMinus\-Weight                    & HexData decrement, HexCoord row, HexCoord column                                                                                      & Уменьшает вес шестиугольника на decrement, с учетом того, что вес не может быть меньше 1 \\ \hline
+std::vector\-\textless{}svg::\-Point\textgreater{}            & getHex\-Edge\-Points                  & HexCoord row, HexCoord column                                                                                                         & Возвращает вектор с координатами вершин шестиугольника для отрисовки                     \\ \hline
+std::vector\-\textless{}Hex\textgreater{}                   & neighbors                         & HexCoord row, HexCoord column                                                                                                         & Возвращает  вектор с координатами соседей шестиугольника                                 \\ \hline
+Void                                                      & drawSVG\-with\-Frontier               & std::map\-\textless{}Hex\-Cube, Hex\-Data\textgreater{}* frontiers, std::vector\-\textless{}Hex\-Cube\textgreater{}* path, std::string fileName & Создает SVG файл с гексагональной сеткой и фронтами алгоритма                            \\ \hline
+\caption{Методы класса TriangularHexGrap с модификатором доступа public.}
+\label{my-label}\\
+\end{longtable}

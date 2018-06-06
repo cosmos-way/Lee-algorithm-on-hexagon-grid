@@ -1,0 +1,12 @@
+Тип возвращаемого значения;Имя;Параметры;Назначение
+void;TriangularHexGraph;unsigned lenght;Конструктор класса, передается размерность гексагональной сетки
+void;setHexSize;"double hexSize
+";Задаем размер шестиугольника, на основе которых вычисляются другие характеристики сетки
+HexCube;toCubefromOffset;HexCoord row, HexCoord column;Конвертирует из порядковых координат в кубические
+;toCubeFromAxial;HexCoord q, HexCoord r;Конвертирует из осевых координат в кубические
+HexData;getWeight;HexCube cube;Возвращает вес шестиугольника по кубическим координатам
+Void;setPlusWeight;HexData increment, HexCoord row, HexCoord column;Увеличивает вес шестиугольника на increment
+;setMinusWeight;HexData decrement, HexCoord row, HexCoord column;Уменьшает вес шестиугольника на decrement, с учетом того, что вес не может быть меньше 1
+std::vector<svg::Point> ;getHexEdgePoints;HexCoord row, HexCoord column;Возвращает вектор с координатами вершин шестиугольника для отрисовки
+std::vector<Hex>;neighbors;HexCoord row, HexCoord column;Возвращает  вектор с координатами соседей шестиугольника
+Void;drawSVGwithFrontier;std::map<HexCube, HexData>* frontiers, std::vector<HexCube>* path, std::string fileName;Создает SVG файл с гексагональной сеткой и фронтами алгоритма

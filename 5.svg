@@ -1,0 +1,138 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="519.615px" height="310px" xmlns="http://www.w3.org/2000/svg" version="1.1" >
+	<polygon points="0,30 0,10 17.3205,0 34.641,10 34.641,30 17.3205,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="0" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >0</text>
+	<polygon points="34.641,30 34.641,10 51.9615,0 69.282,10 69.282,30 51.9615,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="34.641" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >-1</text>
+	<polygon points="69.282,30 69.282,10 86.6025,0 103.923,10 103.923,30 86.6025,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="69.282" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >0</text>
+	<polygon points="103.923,30 103.923,10 121.244,0 138.564,10 138.564,30 121.244,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="103.923" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >1</text>
+	<polygon points="138.564,30 138.564,10 155.885,0 173.205,10 173.205,30 155.885,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="138.564" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >2</text>
+	<polygon points="173.205,30 173.205,10 190.526,0 207.846,10 207.846,30 190.526,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="173.205" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >3</text>
+	<polygon points="207.846,30 207.846,10 225.167,0 242.487,10 242.487,30 225.167,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="207.846" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >4</text>
+	<polygon points="242.487,30 242.487,10 259.808,0 277.128,10 277.128,30 259.808,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="242.487" y="20" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >5</text>
+	<polygon points="277.128,30 277.128,10 294.449,0 311.769,10 311.769,30 294.449,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="311.769,30 311.769,10 329.09,0 346.41,10 346.41,30 329.09,40 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="17.3205,60 17.3205,40 34.641,30 51.9615,40 51.9615,60 34.641,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="17.3205" y="50" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >0</text>
+	<polygon points="51.9615,60 51.9615,40 69.282,30 86.6025,40 86.6025,60 69.282,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="51.9615" y="50" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >0</text>
+	<polygon points="86.6025,60 86.6025,40 103.923,30 121.244,40 121.244,60 103.923,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="86.6025" y="50" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >1</text>
+	<polygon points="121.244,60 121.244,40 138.564,30 155.885,40 155.885,60 138.564,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="121.244" y="50" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >2</text>
+	<polygon points="155.885,60 155.885,40 173.205,30 190.526,40 190.526,60 173.205,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="155.885" y="50" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >3</text>
+	<polygon points="190.526,60 190.526,40 207.846,30 225.167,40 225.167,60 207.846,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="190.526" y="50" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >4</text>
+	<polygon points="225.167,60 225.167,40 242.487,30 259.808,40 259.808,60 242.487,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="225.167" y="50" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >5</text>
+	<polygon points="259.808,60 259.808,40 277.128,30 294.449,40 294.449,60 277.128,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="294.449,60 294.449,40 311.769,30 329.09,40 329.09,60 311.769,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="329.09,60 329.09,40 346.41,30 363.731,40 363.731,60 346.41,70 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="34.641,90 34.641,70 51.9615,60 69.282,70 69.282,90 51.9615,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="34.641" y="80" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >1</text>
+	<polygon points="69.282,90 69.282,70 86.6025,60 103.923,70 103.923,90 86.6025,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="69.282" y="80" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >1</text>
+	<polygon points="103.923,90 103.923,70 121.244,60 138.564,70 138.564,90 121.244,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="103.923" y="80" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >2</text>
+	<polygon points="138.564,90 138.564,70 155.885,60 173.205,70 173.205,90 155.885,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="138.564" y="80" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >3</text>
+	<polygon points="173.205,90 173.205,70 190.526,60 207.846,70 207.846,90 190.526,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="173.205" y="80" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >4</text>
+	<polygon points="207.846,90 207.846,70 225.167,60 242.487,70 242.487,90 225.167,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="207.846" y="80" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >5</text>
+	<polygon points="242.487,90 242.487,70 259.808,60 277.128,70 277.128,90 259.808,100 " fill="rgb(128,0,128)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="277.128,90 277.128,70 294.449,60 311.769,70 311.769,90 294.449,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="311.769,90 311.769,70 329.09,60 346.41,70 346.41,90 329.09,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="346.41,90 346.41,70 363.731,60 381.051,70 381.051,90 363.731,100 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="51.9615,120 51.9615,100 69.282,90 86.6025,100 86.6025,120 69.282,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="51.9615" y="110" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >2</text>
+	<polygon points="86.6025,120 86.6025,100 103.923,90 121.244,100 121.244,120 103.923,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="86.6025" y="110" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >2</text>
+	<polygon points="121.244,120 121.244,100 138.564,90 155.885,100 155.885,120 138.564,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="121.244" y="110" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >3</text>
+	<polygon points="155.885,120 155.885,100 173.205,90 190.526,100 190.526,120 173.205,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="155.885" y="110" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >4</text>
+	<polygon points="190.526,120 190.526,100 207.846,90 225.167,100 225.167,120 207.846,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="190.526" y="110" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >5</text>
+	<polygon points="225.167,120 225.167,100 242.487,90 259.808,100 259.808,120 242.487,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="259.808,120 259.808,100 277.128,90 294.449,100 294.449,120 277.128,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="294.449,120 294.449,100 311.769,90 329.09,100 329.09,120 311.769,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="329.09,120 329.09,100 346.41,90 363.731,100 363.731,120 346.41,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="363.731,120 363.731,100 381.051,90 398.372,100 398.372,120 381.051,130 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="69.282,150 69.282,130 86.6025,120 103.923,130 103.923,150 86.6025,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="69.282" y="140" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >3</text>
+	<polygon points="103.923,150 103.923,130 121.244,120 138.564,130 138.564,150 121.244,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="103.923" y="140" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >3</text>
+	<polygon points="138.564,150 138.564,130 155.885,120 173.205,130 173.205,150 155.885,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="138.564" y="140" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >4</text>
+	<polygon points="173.205,150 173.205,130 190.526,120 207.846,130 207.846,150 190.526,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="173.205" y="140" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >5</text>
+	<polygon points="207.846,150 207.846,130 225.167,120 242.487,130 242.487,150 225.167,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="242.487,150 242.487,130 259.808,120 277.128,130 277.128,150 259.808,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="277.128,150 277.128,130 294.449,120 311.769,130 311.769,150 294.449,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="311.769,150 311.769,130 329.09,120 346.41,130 346.41,150 329.09,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="346.41,150 346.41,130 363.731,120 381.051,130 381.051,150 363.731,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="381.051,150 381.051,130 398.372,120 415.692,130 415.692,150 398.372,160 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="86.6025,180 86.6025,160 103.923,150 121.244,160 121.244,180 103.923,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="86.6025" y="170" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >4</text>
+	<polygon points="121.244,180 121.244,160 138.564,150 155.885,160 155.885,180 138.564,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="121.244" y="170" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >4</text>
+	<polygon points="155.885,180 155.885,160 173.205,150 190.526,160 190.526,180 173.205,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="155.885" y="170" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >5</text>
+	<polygon points="190.526,180 190.526,160 207.846,150 225.167,160 225.167,180 207.846,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="225.167,180 225.167,160 242.487,150 259.808,160 259.808,180 242.487,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="259.808,180 259.808,160 277.128,150 294.449,160 294.449,180 277.128,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="294.449,180 294.449,160 311.769,150 329.09,160 329.09,180 311.769,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="329.09,180 329.09,160 346.41,150 363.731,160 363.731,180 346.41,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="363.731,180 363.731,160 381.051,150 398.372,160 398.372,180 381.051,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="398.372,180 398.372,160 415.692,150 433.013,160 433.013,180 415.692,190 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="103.923,210 103.923,190 121.244,180 138.564,190 138.564,210 121.244,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<text x="103.923" y="200" fill="rgb(0,0,0)" font-size="13" font-family="Arial" >5</text>
+	<polygon points="138.564,210 138.564,190 155.885,180 173.205,190 173.205,210 155.885,220 " fill="rgb(128,0,128)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="173.205,210 173.205,190 190.526,180 207.846,190 207.846,210 190.526,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="207.846,210 207.846,190 225.167,180 242.487,190 242.487,210 225.167,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="242.487,210 242.487,190 259.808,180 277.128,190 277.128,210 259.808,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="277.128,210 277.128,190 294.449,180 311.769,190 311.769,210 294.449,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="311.769,210 311.769,190 329.09,180 346.41,190 346.41,210 329.09,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="346.41,210 346.41,190 363.731,180 381.051,190 381.051,210 363.731,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="381.051,210 381.051,190 398.372,180 415.692,190 415.692,210 398.372,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="415.692,210 415.692,190 433.013,180 450.333,190 450.333,210 433.013,220 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="121.244,240 121.244,220 138.564,210 155.885,220 155.885,240 138.564,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="155.885,240 155.885,220 173.205,210 190.526,220 190.526,240 173.205,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="190.526,240 190.526,220 207.846,210 225.167,220 225.167,240 207.846,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="225.167,240 225.167,220 242.487,210 259.808,220 259.808,240 242.487,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="259.808,240 259.808,220 277.128,210 294.449,220 294.449,240 277.128,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="294.449,240 294.449,220 311.769,210 329.09,220 329.09,240 311.769,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="329.09,240 329.09,220 346.41,210 363.731,220 363.731,240 346.41,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="363.731,240 363.731,220 381.051,210 398.372,220 398.372,240 381.051,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="398.372,240 398.372,220 415.692,210 433.013,220 433.013,240 415.692,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="433.013,240 433.013,220 450.333,210 467.654,220 467.654,240 450.333,250 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="138.564,270 138.564,250 155.885,240 173.205,250 173.205,270 155.885,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="173.205,270 173.205,250 190.526,240 207.846,250 207.846,270 190.526,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="207.846,270 207.846,250 225.167,240 242.487,250 242.487,270 225.167,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="242.487,270 242.487,250 259.808,240 277.128,250 277.128,270 259.808,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="277.128,270 277.128,250 294.449,240 311.769,250 311.769,270 294.449,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="311.769,270 311.769,250 329.09,240 346.41,250 346.41,270 329.09,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="346.41,270 346.41,250 363.731,240 381.051,250 381.051,270 363.731,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="381.051,270 381.051,250 398.372,240 415.692,250 415.692,270 398.372,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="415.692,270 415.692,250 433.013,240 450.333,250 450.333,270 433.013,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="450.333,270 450.333,250 467.654,240 484.974,250 484.974,270 467.654,280 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="155.885,300 155.885,280 173.205,270 190.526,280 190.526,300 173.205,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="190.526,300 190.526,280 207.846,270 225.167,280 225.167,300 207.846,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="225.167,300 225.167,280 242.487,270 259.808,280 259.808,300 242.487,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="259.808,300 259.808,280 277.128,270 294.449,280 294.449,300 277.128,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="294.449,300 294.449,280 311.769,270 329.09,280 329.09,300 311.769,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="329.09,300 329.09,280 346.41,270 363.731,280 363.731,300 346.41,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="363.731,300 363.731,280 381.051,270 398.372,280 398.372,300 381.051,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="398.372,300 398.372,280 415.692,270 433.013,280 433.013,300 415.692,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="433.013,300 433.013,280 450.333,270 467.654,280 467.654,300 450.333,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+	<polygon points="467.654,300 467.654,280 484.974,270 502.295,280 502.295,300 484.974,310 " fill="rgb(255,255,255)" stroke-width="0.5" stroke="rgb(0,0,0)" />
+</svg>

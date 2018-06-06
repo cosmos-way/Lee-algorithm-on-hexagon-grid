@@ -1,0 +1,5 @@
+\select@language {russian}
+\contentsline {chapter}{\numberline {1}\IeC {\CYRA }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrz } \IeC {\cyrz }\IeC {\cyra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyri }}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}\IeC {\CYRG }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrs }\IeC {\cyra }\IeC {\cyrg }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrya } \IeC {\cyrs }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyrk }\IeC {\cyra }}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}\IeC {\CYRA }\IeC {\cyrl }\IeC {\cyrg }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyrm } \IeC {\CYRL }\IeC {\cyri }}{4}{section.1.2}
+\contentsline {chapter}{\CYRS \cyrp \cyri \cyrs \cyro \cyrk ~ \cyri \cyrs \cyrp \cyro \cyrl \cyrsftsn \cyrz \cyro \cyrv \cyra \cyrn \cyrn \cyrery \cyrh ~ \cyri \cyrs \cyrt \cyro \cyrch \cyrn \cyri \cyrk \cyro \cyrv }{5}{section*.3}
