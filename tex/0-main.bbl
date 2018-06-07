@@ -7,16 +7,34 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{w3}
+\selectlanguageifdefined{english}
+w3schools [Электронный ресурс] (дата обращения:
+  03.06.2018). \BibUrl{ https://www.w3schools.com/graphics/svg_intro.asp}.
+
+\bibitem{html}
+\selectlanguageifdefined{english}
+\BibEmph{Academy,~Html}. Знакомство с SVG [Электронный
+  ресурс] (дата обращения: 03.06.2018). \BibUrl{
+  https://htmlacademy.ru/courses/130/}.
+
 \bibitem{red}
 \selectlanguageifdefined{english}
 \BibEmph{Patel,~Amit}. Hexagonal Grids [Электронный ресурс]
-  (дата обращения: 01.05.2018). ---
+  (дата обращения: 03.06.2018). ---
 \newblock 2015. \BibUrl{ https://www.redblobgames.com/grids/hexagons/}.
+
+\bibitem{habr}
+\selectlanguageifdefined{english}
+\BibEmph{PatientZero}. Создание сеток
+  шестиугольников [Электронный ресурс]
+  (дата обращения: 03.06.2018). ---
+\newblock 2017. \BibUrl{ https://habr.com/post/319644/}.
 
 \bibitem{book1}
 \selectlanguageifdefined{russian}
-\BibEmph{А.,~Новиков~Ф.} Дискретная математика
-  для программистов~/ Новиков~Ф.~А. ---
+\BibEmph{Ф.А.,~Новиков}. Дискретная математика
+  для программистов~/ Новиков~Ф.А. ---
 \newblock Питер, 2013.
 
 \end{thebibliography}

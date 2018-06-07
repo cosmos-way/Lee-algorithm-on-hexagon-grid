@@ -45,8 +45,9 @@ void HexagonGrid::drawSVG(string fileName)
                   <<svg::Point(hexX[5]+marginL+hexW*j,hexY[5])
                   );
                   map<OffsetPoint, int>::iterator it = fronts.find(OffsetPoint(j,i));
-                  if(it!=fronts.end())
-                    doc<< svg::Text(svg::Point(hexX[0]+marginL+hexW*j, centreY),  std::to_string(it->second), svg::Color::Black, svg::Font(hexSize*0.65, "Arial"));
+                  doc<< svg::Text(svg::Point(hexX[0]+marginL+hexW*j+hexW*0.25, centreY+hexSize*0.25),  std::to_string(j)+","+std::to_string(i), svg::Color::Black, svg::Font(hexSize*0.65, "Arial"));
+                  //if(it!=fronts.end())
+                    //doc<< svg::Text(svg::Point(hexX[0]+marginL+hexW*j, centreY),  std::to_string(it->second), svg::Color::Black, svg::Font(hexSize*0.65, "Arial"));
         }
     }
 
@@ -76,7 +77,7 @@ void HexagonGrid::drawSVG(string fileName)
     hexW=hexSize*sqrt(3);
     gridHeight=hexH*(0.75*dimension+0.25);
     gridWidth=hexW*dimension+hexW*0.5*dimension;
-    BuildTerminates();
+    //BuildTerminates();
 }
 /** @brief (one liner)
   *
